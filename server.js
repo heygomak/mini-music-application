@@ -12,10 +12,10 @@ app.listen(port, ()=>console.log(`Listening on port ${port}`));
 var mysql  = require('mysql');
 var connection = mysql.createConnection({
     host            :    'localhost',
-    user            :    'master',
+    user            :    'root',
     password    :   '1234',
     port             :   3306,
-    database      :   'album'        
+    database      :   'ALBUM'        
 })
 connection.connect();
 

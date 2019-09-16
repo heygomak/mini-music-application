@@ -1,8 +1,3 @@
-## TODAY's ALBUM (Mini Music Application)
-본 프로젝트는  앨범 정보를 확인할 수 있으며, 앨범의 수록곡을 무료로 감상할 수 있는 기능을 가진 음악 어플리케이션이다.
-This project is a music application that can check the album information, and listen to the songs of the album for free.
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

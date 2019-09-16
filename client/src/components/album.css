@@ -1,0 +1,21 @@
+
+    .useStyles-icon {
+      margin-right: 16px
+    }
+
+    .useStyles-cardGrid {
+      padding: 64px
+    }
+
+    .useStyles-cardMedia {
+      padding-top: '56.25%'
+    }
+
+    .useStyles-cardContent {
+      flex-grow: 1
+    }
+    
+    .useStyles-footer {
+      background-color: whitesmoke;
+      padding: 48px
+    }
