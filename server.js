@@ -21,8 +21,17 @@ connection.connect();
 
 /* Send Data Using REST */
 app.get('/', (req, res) => {
-    connection.query('SELECT * FROM album', function(error, result, fields){
-        res.send(result);
-        console.log("query 실행 결과>>>", typeof result, result);
+    connection.query('SELECT album_id, album_title, album_image_uri, album_artist FROM album', 
+        function(error, result, fields){
+            console.log("변환후>>>", JSON.stringify(result));
+            console.log("변환전>>>", result);
+            res.send(result); 
+    });
+});
+
+app.get('/{album_id}', (req, res) => {
+    connection.query('SELECT * FROM album', 
+        function(error, result, fields){
+            res.send(result);
     });
 });
